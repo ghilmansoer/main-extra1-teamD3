@@ -1,0 +1,4 @@
+<i class="fab fa-shopify"></i>
+<i class="fas fa-user-tie"></i>
+<i class="fas fa-city"></i>
+<i class="fas fa-fist-raised"></i>

@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.mainext1-wrapper   {
+    height: 406px;
+    color: #646464;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ext1-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.ext1-sub {
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.service-icon {
+    width: 43.7px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #646464;
+    opacity: 50%;
+    margin: 0px 120px;
+}
+
+.service-title {
+    font-size: 14px;
+    opacity: 50%;
+    margin: 20px 90px;
+}
+
+.btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contact {
+    background-color: #2746a0;
+    color: white;
+    padding: 22px 37px;
+    margin-bottom: 65px;
+    cursor: pointer;
+    box-shadow: 0px 4px black;
+    border-radius: 7px;
+    display: inline-block;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.btn-contact:hover {
+    opacity: 0.95;
+}
+
+.btn-contact:active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
+
+/* layout for tablet */
+@media (max-width: 1000px) {
+    .services {
+        flex-wrap: wrap;
+    }
+
+    .service-icon {
+        margin: 0px 120px;
+        height: 50px;
+    }
+
+}
+
+/* layout for smartphone */
+@media (max-width: 670px) {
+    .services {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-title {
+        margin: 0px 95px;
+        margin-bottom: 30px;
+    }
+}
